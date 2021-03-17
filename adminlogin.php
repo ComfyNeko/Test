@@ -55,7 +55,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])) {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
 body {
-  background: url("https://sharegate.com/app/uploads/2020/05/sgdesktop-teamsmigration-release-featured-1-920x517.png")repeat;
+  background: url("https://sharegate.com/app/uploads/2020/05/sgdesktop-teamsmigration-release-featured-1-920x517.png");
   font-family: "Spartan";
 }
 
