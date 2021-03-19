@@ -7,7 +7,7 @@
     <!-- END -->
  
     <!-- AVAILABLE COMMANDS -->
-    <record name="result.txt" action="start" append="false" />
+   <!-- <record name="result.txt" action="start" append="false" /> -->
     <target name="full-suite" depends="date, list" />
     <!-- END -->
  
@@ -27,5 +27,5 @@
     </target>
     <!-- END -->
     
-<record name="result.txt" action="stop"/>
+<!-- <record name="result.txt" action="stop"/> -->
 </project>
