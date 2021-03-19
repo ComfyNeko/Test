@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="nation" default="full-suite" basedir=".">
-<target name="runTests" description="Run JUnit tests">
-    <junit printsummary="yes" dir="test-classes" fork="true">
-        <classpath>
-            <pathelement location="inst-classes" />
-        </classpath>
-        <test name="xxx.AllNonGWTTestCaseTests" haltonfailure="no" outfile="result">
-            <formatter type="xml" />
-        </test>
-    </junit>
-</target>
+
     <record name="result.txt" action="start" append="false" />
     <!-- GLOBAL VARIABLES -->
     <property name="source" value="app" />
