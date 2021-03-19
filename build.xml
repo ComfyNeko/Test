@@ -18,7 +18,7 @@
     <!-- END -->
  
     <!-- LIST -->
-    <target name="list">
+   <!-- <target name="list">
         <echo message="Listing source folder ..."/>
         <exec executable="ls">
             <arg line="-l ${source}" />
