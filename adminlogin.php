@@ -192,7 +192,7 @@ a {
 <script>  
 function ValidateEmail(email) 
 {
- if (/^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@virtusa.com$/.test(myform.email.value))
+ if (/^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@gmail.com$/.test(myform.email.value))
   {
     return (true)
   }
