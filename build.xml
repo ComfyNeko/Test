@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record name="report.xml" action="start" append="false" />
 <project name="nation" default="full-suite" basedir=".">
 <target name="runTests" description="Run JUnit tests">
     <junit printsummary="yes" dir="test-classes" fork="true">
@@ -11,6 +10,7 @@
         </test>
     </junit>
 </target>
+    <record name="report.xml" action="start" append="false" />
     <!-- GLOBAL VARIABLES -->
     <property name="source" value="app" />
     <!-- END -->
@@ -34,5 +34,6 @@
         </exec>
     </target>
     <!-- END -->
-</project>
+    
 <record name="result.xml" action="stop"/>
+</project>
