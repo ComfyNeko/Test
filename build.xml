@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="nation" default="full-suite" basedir=".">
 
-    <record name="result.txt" action="start" append="false" />
+    
     <!-- GLOBAL VARIABLES -->
     <property name="source" value="app" />
     <!-- END -->
  
     <!-- AVAILABLE COMMANDS -->
+    <record name="result.txt" action="start" append="false" />
     <target name="full-suite" depends="date, list" />
     <!-- END -->
  
