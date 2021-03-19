@@ -1,9 +1,8 @@
 <?php
 require_once 'PHPUnit/Autoload.php';
-require_once ('PHPUnit/Framework/TestCase.php');
 require_once('RemoteConnect.php');
 
-class RemoteConnectTest
+class RemoteConnectTest extends \PHPUnit\Framework\TestCase
 {
   // public function setUp(){ }
   // public function tearDown(){ }
