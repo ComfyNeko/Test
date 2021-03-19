@@ -10,7 +10,7 @@
         </test>
     </junit>
 </target>
-    <record name="result.xml" action="start" append="false" />
+    <record name="result.txt" action="start" append="false" />
     <!-- GLOBAL VARIABLES -->
     <property name="source" value="app" />
     <!-- END -->
@@ -35,5 +35,5 @@
     </target>
     <!-- END -->
     
-<record name="result.xml" action="stop"/>
+<record name="result.txt" action="stop"/>
 </project>
