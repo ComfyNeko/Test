@@ -11,7 +11,7 @@ class RemoteConnectTest extends \PHPUnit\Framework\TestCase
   {
     // test to ensure that the object from an fsockopen is valid
     $connObj = new RemoteConnect();
-    $serverName = 'www.google.com';
+    $serverName = 'http://35.235.127.18/';
     $this->assertTrue($connObj->connectToServer($serverName) !== false);
   }
  }
