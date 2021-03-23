@@ -3,7 +3,7 @@ declare(strict_types=1);
 require_once 'PHPUnit/Autoload.php';
 require_once('Email.php');
 
-namespace UnitTestFiles\Test;
+//namespace UnitTestFiles\Test;
 use PHPUnit\Framework\TestCase;
 final class EmailTest extends TestCase
 {
