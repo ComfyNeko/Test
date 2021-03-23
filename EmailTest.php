@@ -1,7 +1,8 @@
 <?php
+declare(strict_types=1);
 require_once 'PHPUnit/Autoload.php';
 require_once('Email.php');
-declare(strict_types=1);
+
 namespace UnitTestFiles\Test;
 use PHPUnit\Framework\TestCase;
 final class EmailTest extends TestCase
